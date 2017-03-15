@@ -115,6 +115,7 @@ textarea {
     padding: 20px;
     width:50%;
 }
+.marketing h2 {font-size: 40px;}
 
 .jumbotron .information p {
     font-size: 1.25em;
@@ -124,10 +125,15 @@ textarea {
     text-align:left;
 }
 
+.jumbotron .logline { text-align: left;}
+
 .jumbotron .btn-group-sm { display:block; }
 .jumbotron .btn-group-sm .btn {font-size:12px;}
 
 .jumbotron .infoblock {float:right; margin: auto 15px 15px 0; }
+.jumbotron .row .btn {font-size:16px;}
+
+.footer {text-align: center;}
 
 
 
