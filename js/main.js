@@ -11,7 +11,6 @@ $(document).ready(function(){
     $(growdiv).show(265);
     $(window).scrollTop(65)
     cdiv = "#thegrow";
-    window.ga('send','pageview')
   });
 
   $(".dirtyratsbutton").on('click', function(){
@@ -19,7 +18,6 @@ $(document).ready(function(){
     $(ratsdiv).show(265);
     $(window).scrollTop(65)
     cdiv = "#dirtyrats";
-    window.ga('send','pageview')
   });
 
   $(".homebutton").on('click', function(){
@@ -27,7 +25,6 @@ $(document).ready(function(){
     $(mktgdiv).show(265);
     $(window).scrollTop(65)
     cdiv = "#marketing";
-    window.ga('send','pageview')
   });
 
 
@@ -36,7 +33,6 @@ $(document).ready(function(){
     $(aboutdiv).show(265);
     $(window).scrollTop(65)
     cdiv = "#about";
-    window.ga('send','pageview')
   });
 
 })
