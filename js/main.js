@@ -2,6 +2,7 @@ $(document).ready(function(){
   var mktgdiv = $("#marketing")
   var growdiv = $("#thegrow")
   var ratsdiv = $("#dirtyrats")
+  var aboutdiv = $("#about")
   var cdiv = "#marketing"
   $(".growbutton").on('click', function(){
     $(cdiv).hide(250);
@@ -21,5 +22,11 @@ $(document).ready(function(){
     cdiv = "#marketing";
   });
 
+
+  $(".aboutbutton").on('click', function(){
+    $(cdiv).hide(250);
+    $(aboutdiv).show(250);
+    cdiv = "#about";
+  });
 
 })
