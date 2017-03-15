@@ -94,13 +94,14 @@ textarea {
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
+body { background-color: #333 !important; }
 
 .barry {
     background-image: url('../img/barry_source.jpeg');
     border-radius: 50%;
     height: 120px;
     width: 120px;
-    border: 2px solid black;
+    border: 2px solid #999;
     background-size: 100%;
     background-position-x: 0px;
     background-position-y: -15px;
