@@ -95,12 +95,39 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
+.barry {
+    background-image: url('../img/barry_source.jpeg');
+    border-radius: 50%;
+    height: 120px;
+    width: 120px;
+    border: 2px solid black;
+    background-size: 125%;
+    background-position-x: 17px;
+    background-position-y: -25px;
+    display:inline-block;
+    position:relative;
+    left: 40%;
+    top: 50px;
+}
 
+.marketing li {
+    list-style-type: none;
+    padding: 20px;
+    width:50%;
+}
 
+.jumbotron .information p {
+    font-size: 1.25em;
+}
 
+.jumbotron .information {
+    text-align:left;
+}
 
+.jumbotron .btn-group-sm { display:block; }
+.jumbotron .btn-group-sm .btn {font-size:12px;}
 
-
+.jumbotron .infoblock {float:right; margin: auto 15px 15px 0; }
 
 
 
@@ -193,6 +220,9 @@ textarea {
 
 @media only screen and (min-width: 35em) {
     /* Style adjustments for viewports that meet the condition */
+    .marketing li {
+        display: table-cell;
+    }
 }
 
 @media print,
