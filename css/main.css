@@ -229,6 +229,8 @@ textarea {
     .marketing li {
         display: table-cell;
     }
+    .jumbotron .infoblock {float:none; margin: auto auto 15px; }
+
 }
 
 @media print,
