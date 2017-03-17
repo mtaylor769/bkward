@@ -36,8 +36,8 @@ $(document).ready(function(){
   });
 
   $(".infoblock button").on('click', function(){
-    if (this.data-link) {
-      window.open(this.data-link, "_blank");
+    if ($(this).attr('data-link')) {
+      window.open($(this).attr('data-link'), "_blank");
     }
   });
 })
