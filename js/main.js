@@ -35,4 +35,9 @@ $(document).ready(function(){
     cdiv = "#about";
   });
 
+  $(".infoblock button").on('click', function(){
+    if (this.data-link) {
+      window.open(this.data-link, "_blank");
+    }
+  });
 })
