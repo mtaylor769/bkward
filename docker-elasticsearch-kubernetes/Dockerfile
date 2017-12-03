@@ -1,3 +1,4 @@
+# Keyinsp Custom Elasticsearch image
 FROM docker.elastic.co/elasticsearch/elasticsearch:6.0.0
 
 LABEL MAINTAINER=mike@whatsmycut.com
